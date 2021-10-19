@@ -19,7 +19,7 @@ um node tenta se sincronizar com outros durante um tempo (default 5 minutos),
 se esse tempo estourar, ele desiste e não se considera inicializado.  
 
 Health Checks podem acabar achando que um sistema saudável e operacional, não esteja bem, e reiniciar ou  
-destruir e recriar sem uma razão, reduziando a disponibilidade do sistema.  
+destruir e recriar sem uma razão, reduzindo a disponibilidade do sistema.  
 Não há uma solução definitiva, há diversas opções para health checks, mas todas sujeitas a falhas.  
 
 As ferramentas RabbitMQ CLI fornecem uma série de verificações de saúde predefinidas  
