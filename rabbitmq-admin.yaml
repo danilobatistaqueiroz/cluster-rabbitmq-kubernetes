@@ -1,0 +1,9 @@
+apiVersion: v1
+data:
+  user: YWRtaW5pc3RyYXRvcg==
+  pass: YWRtaW4xMjM=
+kind: Secret
+metadata:
+  name: rabbitmq-admin
+  namespace: test-rabbitmq
+type: Opaque
